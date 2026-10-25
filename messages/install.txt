@@ -1,0 +1,7 @@
+RGC for Sublime Text 0.1.0
+
+Initial release:
+- RGC syntax highlighting
+- Build / Run / Test build variants
+- Completions and snippets
+- Symbol list and comment/indentation rules
