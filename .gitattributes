@@ -1,0 +1,10 @@
+# Files to exclude from the packaged .sublime-package archive
+.gitattributes export-ignore
+.gitignore export-ignore
+*.png export-ignore
+*.jpg export-ignore
+*.jpeg export-ignore
+test/ export-ignore
+tests/ export-ignore
+*.sublime-project export-ignore
+*.sublime-workspace export-ignore
