@@ -1,0 +1,5 @@
+[
+    { "caption": "RGC: Build", "command": "build" },
+    { "caption": "RGC: Run", "command": "build", "args": { "variant": "Run" } },
+    { "caption": "RGC: Test", "command": "build", "args": { "variant": "Test" } }
+]

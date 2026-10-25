@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[class ${1:Name} {
+	${2:field}: ${3:int}
+
+	def ${4:method}(self) -> ${5:int} {
+		$0
+	}
+}]]></content>
+    <tabTrigger>class</tabTrigger>
+    <scope>source.rgc</scope>
+    <description>Class definition</description>
+</snippet>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>Symbol List</string>
+    <key>scope</key>
+    <string>source.rgc</string>
+    <key>settings</key>
+    <dict>
+        <key>showInSymbolList</key>
+        <integer>1</integer>
+        <key>symbolTransformation</key>
+        <string>s/^\s*(def|class|enum|interface|import)\s+([A-Za-z_][A-Za-z0-9_]*).*/$1 $2/</string>
+    </dict>
+</dict>
+</plist>

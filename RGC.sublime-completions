@@ -1,0 +1,19 @@
+{
+    "scope": "source.rgc",
+    "completions": [
+        { "trigger": "if\tconditional", "contents": "if ${1:condition} {\n\t$0\n}" },
+        { "trigger": "elif\tconditional", "contents": "elif ${1:condition} {\n\t$0\n}" },
+        { "trigger": "else\tconditional", "contents": "else {\n\t$0\n}" },
+        { "trigger": "for\tloop", "contents": "for ${1:i} in ${2:range(10)} {\n\t$0\n}" },
+        { "trigger": "while\tloop", "contents": "while ${1:condition} {\n\t$0\n}" },
+        { "trigger": "match\tpattern matching", "contents": "match ${1:value} {\n\t${2:case} => {\n\t\t$0\n\t}\n}" },
+        { "trigger": "def\tfunction", "contents": "def ${1:name}(${2:args}) -> ${3:int} {\n\t$0\n}" },
+        { "trigger": "class\tclass", "contents": "class ${1:Name} {\n\t${2:field}: ${3:int}\n\t$0\n}" },
+        { "trigger": "enum\tenum", "contents": "enum ${1:Name} {\n\t${2:Variant}(${3:int})\n\t$0\n}" },
+        { "trigger": "interface\tinterface", "contents": "interface ${1:Name} {\n\tdef ${2:method}(self) -> ${3:int}\n\t$0\n}" },
+        { "trigger": "import\tmodule", "contents": "import ${1:module}" },
+        { "trigger": "main\tentry point", "contents": "def main() {\n\t$0\n}" },
+        { "trigger": "print\toutput", "contents": "print(${1:value})" },
+        { "trigger": "range\tsequence", "contents": "range(${1:10})" }
+    ]
+}
